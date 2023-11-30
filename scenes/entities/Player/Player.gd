@@ -10,7 +10,8 @@ signal damage_signal
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
-	self.damage_signal.connect("apply_damage")
+	$AnimationPlayer.play("Idle")
+##	self.damage_signal.connect("apply_damage")
 	
 
 func _physics_process(delta):	
