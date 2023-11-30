@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dq7me78u2ocms"]
+
+[ext_resource type="PackedScene" uid="uid://bn8i31fmxjrck" path="res://scenes/entities/Player/Player.tscn" id="1_kgl7w"]
+[ext_resource type="PackedScene" uid="uid://cjke3kplvgy03" path="res://scenes/entities/Enemys/GennyLaCarogna/GennyLaCarogna.tscn" id="2_cw8s1"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_kgl7w")]
+
+[node name="GennyLaCarogna" parent="." instance=ExtResource("2_cw8s1")]
