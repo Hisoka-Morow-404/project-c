@@ -73,5 +73,6 @@ libraries = {
 }
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
 
 [connection signal="body_entered" from="Area2DHitBox" to="Area2DHitBox" method="_on_body_entered"]
